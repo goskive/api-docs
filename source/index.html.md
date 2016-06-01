@@ -12,6 +12,7 @@ toc_footers:
 
 includes:
   - errors
+  - generated_examples
 
 search: true
 ---
@@ -165,4 +166,3 @@ This endpoint retrieves a specific kitten.
 Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to retrieve
-
