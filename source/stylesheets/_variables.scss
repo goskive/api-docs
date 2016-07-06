@@ -67,8 +67,10 @@ $phone-width: $tablet-width - $nav-width; // min width before reverting to mobil
 
 // FONTS
 ////////////////////
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic);
+
 %default-font {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 13px;
 }
 
