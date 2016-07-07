@@ -23,12 +23,12 @@ under the License.
 
 // BACKGROUND COLORS
 ////////////////////
-$nav-bg: #49d3c2;
-$examples-bg: #2c3248;
-$code-bg: #292929;
+$nav-bg: #f2f2f2;
+$examples-bg: #2D3248;
+$code-bg: darken($examples-bg, 20%);
 $code-annotation-bg: #1c1c1c;
 $nav-subitem-bg: darken($nav-bg, 10%);
-$nav-active-bg: darken($nav-bg, 30%);
+$nav-active-bg: #1E98FF;
 $lang-select-border: #000;
 $lang-select-bg: #222;
 $lang-select-active-bg: $examples-bg; // feel free to change this to blue or something
