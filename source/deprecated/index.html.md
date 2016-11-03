@@ -15,9 +15,9 @@ DEPRECATED. Use DELETE /v2/:content_unit_type/:content_unit_id/bookmark instead.
 #### Endpoint
 
 ```
-DELETE /v2/bookmarks/4
+DELETE /v2/bookmarks/2
 Content-Type: application/json
-Authorization: Bearer 6b852df0cbc25bf80bf615274cef9b5f3f1145447374bc6aab82533475ba5f6b
+Authorization: Bearer a532cfa38ce1b6f5a24cea9fe89f70f6ae2e7dc010f63a7490fc3134d416960a
 ```
 
 `DELETE /v2/bookmarks/:bookmark_id`
@@ -39,9 +39,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/bookmarks/4" -d '' -X DELETE \
+curl "api.goskive.com/v2/bookmarks/2" -d '' -X DELETE \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 6b852df0cbc25bf80bf615274cef9b5f3f1145447374bc6aab82533475ba5f6b"
+	-H "Authorization: Bearer a532cfa38ce1b6f5a24cea9fe89f70f6ae2e7dc010f63a7490fc3134d416960a"
 ```
 # Current user User Courses
 
@@ -56,7 +56,7 @@ DEPRECATED. Use PUT /v2/courses/:course_id/pin instead.
 ```
 POST /v2/me/user_courses
 Content-Type: application/json
-Authorization: Bearer ee3d30182702f247466fab9762d8c239285f936934fadbd585dedb9d1f316b97
+Authorization: Bearer 711644568f4c40bc11d478e316e8a28cd88c6bf956f2c65bfb1baddd818da22b
 ```
 
 `POST /v2/me/user_courses`
@@ -65,7 +65,7 @@ Authorization: Bearer ee3d30182702f247466fab9762d8c239285f936934fadbd585dedb9d1f
 
 
 ```json
-{"user_course":{"course_id":203,"pinned":true}}
+{"user_course":{"course_id":275,"pinned":true}}
 ```
 
 
@@ -98,9 +98,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/me/user_courses" -d '{"user_course":{"course_id":203,"pinned":true}}' -X POST \
+curl "api.goskive.com/v2/me/user_courses" -d '{"user_course":{"course_id":275,"pinned":true}}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer ee3d30182702f247466fab9762d8c239285f936934fadbd585dedb9d1f316b97"
+	-H "Authorization: Bearer 711644568f4c40bc11d478e316e8a28cd88c6bf956f2c65bfb1baddd818da22b"
 ```
 ## Create a user course
 
@@ -113,7 +113,7 @@ DEPRECATED. Use PUT /v2/courses/:course_id/pin instead.
 ```
 POST /v2/me/user_courses
 Content-Type: application/json
-Authorization: Bearer cc77e5b08334a33d1f1cacc23845f1bd5e4578e77b301acc05b2e90cd690497a
+Authorization: Bearer 85e97507e89386e62dbce4d327e958a7ef3bd6d772a4a1a43d763eacefb51978
 ```
 
 `POST /v2/me/user_courses`
@@ -122,7 +122,7 @@ Authorization: Bearer cc77e5b08334a33d1f1cacc23845f1bd5e4578e77b301acc05b2e90cd6
 
 
 ```json
-{"user_course":{"course_id":202,"pinned":true}}
+{"user_course":{"course_id":274,"pinned":true}}
 ```
 
 
@@ -144,13 +144,13 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "user_course": {
-    "id": 6,
-    "course_id": 202,
+    "id": 5,
+    "course_id": 274,
     "pinned": true,
     "score": 0,
-    "course_updated_at": "2016-11-03T17:37:19.452Z",
+    "course_updated_at": "2016-11-03T17:48:49.420Z",
     "course_published": true,
-    "updated_at": "2016-11-03T17:37:19.442Z"
+    "updated_at": "2016-11-03T17:48:49.412Z"
   }
 }
 ```
@@ -158,9 +158,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/me/user_courses" -d '{"user_course":{"course_id":202,"pinned":true}}' -X POST \
+curl "api.goskive.com/v2/me/user_courses" -d '{"user_course":{"course_id":274,"pinned":true}}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer cc77e5b08334a33d1f1cacc23845f1bd5e4578e77b301acc05b2e90cd690497a"
+	-H "Authorization: Bearer 85e97507e89386e62dbce4d327e958a7ef3bd6d772a4a1a43d763eacefb51978"
 ```
 # Flashcard Bookmarks
 
@@ -173,9 +173,9 @@ DEPRECATED. Use PUT /v2/flashcards/:flashcard_id/bookmark instead.
 #### Endpoint
 
 ```
-POST /v2/flashcards/33/bookmarks
+POST /v2/flashcards/49/bookmarks
 Content-Type: application/json
-Authorization: Bearer ccfb7f7acce936a68f5b8a67cb76bbc2a50cdffc46b8a2c4aa226a61bf540398
+Authorization: Bearer a179f7aa0fba140e0209a5ef1969c75881181a3a3f1d2840a231f0d60216c422
 ```
 
 `POST /v2/flashcards/:flashcard_id/bookmarks`
@@ -201,8 +201,8 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "bookmark": {
-    "id": 2,
-    "bookmarkable_id": 33,
+    "id": 7,
+    "bookmarkable_id": 49,
     "bookmarkable_type": "Flashcard"
   }
 }
@@ -211,9 +211,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/flashcards/33/bookmarks" -d '{}' -X POST \
+curl "api.goskive.com/v2/flashcards/49/bookmarks" -d '{}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer ccfb7f7acce936a68f5b8a67cb76bbc2a50cdffc46b8a2c4aa226a61bf540398"
+	-H "Authorization: Bearer a179f7aa0fba140e0209a5ef1969c75881181a3a3f1d2840a231f0d60216c422"
 ```
 # Flashcard Votes
 
@@ -226,9 +226,9 @@ DEPRECATED. Instead use PUT /v2/flashcards/:flashcard_id/upvote PUT /v2/flashcar
 #### Endpoint
 
 ```
-POST /v2/flashcards/76/votes
+POST /v2/flashcards/56/votes
 Content-Type: application/json
-Authorization: Bearer 3047ccf1631b0c6464787c8e6e2e0a8320d325269ebff82863a9edbe9e7f3334
+Authorization: Bearer be3d01ed59fc359e36c72e2b6d01ead8aa74150b7176eae4c984149a725e4eab
 ```
 
 `POST /v2/flashcards/:flashcard_id/votes`
@@ -258,11 +258,11 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "vote": {
-    "id": 14,
+    "id": 16,
     "type": "DownVote",
     "votable_type": "Flashcard",
-    "votable_id": 76,
-    "user_id": 471
+    "votable_id": 56,
+    "user_id": 621
   }
 }
 ```
@@ -270,9 +270,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/flashcards/76/votes" -d '{"vote":{"type":"DownVote"}}' -X POST \
+curl "api.goskive.com/v2/flashcards/56/votes" -d '{"vote":{"type":"DownVote"}}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 3047ccf1631b0c6464787c8e6e2e0a8320d325269ebff82863a9edbe9e7f3334"
+	-H "Authorization: Bearer be3d01ed59fc359e36c72e2b6d01ead8aa74150b7176eae4c984149a725e4eab"
 ```
 # Question Bookmarks
 
@@ -285,9 +285,9 @@ DEPRECATED. Use PUT /v2/questions/:question_id/bookmark instead.
 #### Endpoint
 
 ```
-POST /v2/questions/91/bookmarks
+POST /v2/questions/131/bookmarks
 Content-Type: application/json
-Authorization: Bearer e0861c8689e3d45731e3be39256b4451c9e52db214cc7127514f05d7e7d90ee2
+Authorization: Bearer 9e3723b6614ab97f1f876b20e288449dc03c150db7033bc92b4c1fe0e0cc3981
 ```
 
 `POST /v2/questions/:question_id/bookmarks`
@@ -313,8 +313,8 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "bookmark": {
-    "id": 8,
-    "bookmarkable_id": 91,
+    "id": 10,
+    "bookmarkable_id": 131,
     "bookmarkable_type": "Question"
   }
 }
@@ -323,9 +323,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/questions/91/bookmarks" -d '{}' -X POST \
+curl "api.goskive.com/v2/questions/131/bookmarks" -d '{}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer e0861c8689e3d45731e3be39256b4451c9e52db214cc7127514f05d7e7d90ee2"
+	-H "Authorization: Bearer 9e3723b6614ab97f1f876b20e288449dc03c150db7033bc92b4c1fe0e0cc3981"
 ```
 # Question Votes
 
@@ -338,9 +338,9 @@ DEPRECATED. Instead use PUT /v2/questions/:question_id/upvote PUT /v2/questions/
 #### Endpoint
 
 ```
-POST /v2/questions/22/votes
+POST /v2/questions/134/votes
 Content-Type: application/json
-Authorization: Bearer 474f45a3f9ac6c3ea242f806f459feda8bdbf0ab3b9e8adca0648433faf3f2ce
+Authorization: Bearer b262dbbb592824ab6f023996e094cef5f32e318e59007c3cd4ca5d922fa823ed
 ```
 
 `POST /v2/questions/:question_id/votes`
@@ -370,11 +370,11 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "vote": {
-    "id": 9,
+    "id": 23,
     "type": "DownVote",
     "votable_type": "Question",
-    "votable_id": 22,
-    "user_id": 232
+    "votable_id": 134,
+    "user_id": 986
   }
 }
 ```
@@ -382,9 +382,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/questions/22/votes" -d '{"vote":{"type":"DownVote"}}' -X POST \
+curl "api.goskive.com/v2/questions/134/votes" -d '{"vote":{"type":"DownVote"}}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 474f45a3f9ac6c3ea242f806f459feda8bdbf0ab3b9e8adca0648433faf3f2ce"
+	-H "Authorization: Bearer b262dbbb592824ab6f023996e094cef5f32e318e59007c3cd4ca5d922fa823ed"
 ```
 # Votes
 
@@ -397,9 +397,9 @@ DEPRECATED. Instead use PUT /v2/:content_unit_type/:content_unit_id/upvote PUT /
 #### Endpoint
 
 ```
-PATCH /v2/votes/19
+PATCH /v2/votes/3
 Content-Type: application/json
-Authorization: Bearer 30412045798ead224d3064e89ad11373936eb058b689af364f36ff5ad9e7687f
+Authorization: Bearer 6cca867e9af5539772fdbba354810a951cac852416fb017da089d5c1d2ace17a
 ```
 
 `PATCH /v2/votes/:vote_id`
@@ -429,11 +429,11 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "vote": {
-    "id": 19,
+    "id": 3,
     "type": "DownVote",
     "votable_type": "Question",
-    "votable_id": 99,
-    "user_id": 871
+    "votable_id": 6,
+    "user_id": 81
   }
 }
 ```
@@ -441,7 +441,7 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/votes/19" -d '{"vote":{"type":"DownVote"}}' -X PATCH \
+curl "api.goskive.com/v2/votes/3" -d '{"vote":{"type":"DownVote"}}' -X PATCH \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 30412045798ead224d3064e89ad11373936eb058b689af364f36ff5ad9e7687f"
+	-H "Authorization: Bearer 6cca867e9af5539772fdbba354810a951cac852416fb017da089d5c1d2ace17a"
 ```
