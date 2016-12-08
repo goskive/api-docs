@@ -14,9 +14,9 @@ language_tabs:
 #### Endpoint
 
 ```
-DELETE /v2/chapters/51
+DELETE /v2/chapters/40
 Content-Type: application/json
-Authorization: Bearer 7a69f349d5332b943af865104b1b75c4ac4c8648325f106e88d1a7f208f43638
+Authorization: Bearer 4520f37375305337fb50c733f9bc97723a6026552f53eb507d24ab081c6c9e03
 ```
 
 `DELETE /v2/chapters/:chapter_id`
@@ -38,9 +38,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/chapters/51" -d '' -X DELETE \
+curl "api.goskive.com/v2/chapters/40" -d '' -X DELETE \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 7a69f349d5332b943af865104b1b75c4ac4c8648325f106e88d1a7f208f43638"
+	-H "Authorization: Bearer 4520f37375305337fb50c733f9bc97723a6026552f53eb507d24ab081c6c9e03"
 ```
 ## Get a chapter
 
@@ -50,9 +50,9 @@ curl "api.goskive.com/v2/chapters/51" -d '' -X DELETE \
 #### Endpoint
 
 ```
-GET /v2/chapters/53
+GET /v2/chapters/36
 Content-Type: application/json
-Authorization: Bearer 4fff0e79c7a06146df7e7f8b768f1c41e15fe2b148e6e01a7aa5ced34714019c
+Authorization: Bearer 81f4d8d0db345cc2aab2925a6b5249f13753ed578d0e5a8988a3fcfebc834008
 ```
 
 `GET /v2/chapters/:chapter_id`
@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "chapter": {
-    "id": 53,
-    "updated_at": "2016-12-08T18:27:09.881Z",
-    "course_id": 114,
-    "author_id": 273,
+    "id": 36,
+    "updated_at": "2016-12-08T20:51:35.411Z",
+    "course_id": 50,
+    "author_id": 206,
     "permissions": [
       "update",
       "delete"
     ],
-    "flashcards_updated_at": "2016-12-08T18:27:09.340Z",
-    "questions_updated_at": "2016-12-08T18:27:09.340Z",
+    "flashcards_updated_at": "2016-12-08T20:51:34.941Z",
+    "questions_updated_at": "2016-12-08T20:51:34.941Z",
     "flashcards_count": 2,
     "questions_count": 2,
     "flashcards": [
       {
-        "id": 34,
-        "obfuscated_id": "LRSQf_NrQzE",
-        "author_id": 276,
-        "chapter_id": 53,
+        "id": 15,
+        "obfuscated_id": "j5PwoYQzNCc",
+        "author_id": 209,
+        "chapter_id": 36,
         "position": 1,
         "reviewed": true,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:27:09.817Z",
-        "created_at": "2016-12-08T18:27:09.817Z",
+        "updated_at": "2016-12-08T20:51:35.355Z",
+        "created_at": "2016-12-08T20:51:35.355Z",
         "tags": [
 
         ],
@@ -110,16 +110,16 @@ Content-Type: application/json; charset=utf-8
         "back_content_html": "<p>I'm the content</p>"
       },
       {
-        "id": 35,
-        "obfuscated_id": "soCS52BooV0",
-        "author_id": 277,
-        "chapter_id": 53,
+        "id": 16,
+        "obfuscated_id": "Drq0t9y67cE",
+        "author_id": 210,
+        "chapter_id": 36,
         "position": 2,
         "reviewed": true,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:27:09.860Z",
-        "created_at": "2016-12-08T18:27:09.860Z",
+        "updated_at": "2016-12-08T20:51:35.393Z",
+        "created_at": "2016-12-08T20:51:35.393Z",
         "tags": [
 
         ],
@@ -134,16 +134,16 @@ Content-Type: application/json; charset=utf-8
     ],
     "questions": [
       {
-        "id": 60,
-        "obfuscated_id": "XsZtONYAiuo",
-        "author_id": 274,
-        "chapter_id": 53,
-        "position": 56,
+        "id": 25,
+        "obfuscated_id": "HsmcIJXdRE4",
+        "author_id": 207,
+        "chapter_id": 36,
+        "position": 25,
         "reviewed": true,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:27:09.568Z",
-        "created_at": "2016-12-08T18:27:09.476Z",
+        "updated_at": "2016-12-08T20:51:35.146Z",
+        "created_at": "2016-12-08T20:51:35.072Z",
         "tags": [
 
         ],
@@ -158,14 +158,14 @@ Content-Type: application/json; charset=utf-8
         "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
         "answer_options": [
           {
-            "id": 122,
+            "id": 49,
             "position": 1,
             "content": "MyText",
             "content_html": "MyText",
             "correct": true
           },
           {
-            "id": 123,
+            "id": 50,
             "position": 2,
             "content": "MyText",
             "content_html": "MyText",
@@ -174,16 +174,16 @@ Content-Type: application/json; charset=utf-8
         ]
       },
       {
-        "id": 61,
-        "obfuscated_id": "Acd5zhQoy8g",
-        "author_id": 275,
-        "chapter_id": 53,
-        "position": 57,
+        "id": 26,
+        "obfuscated_id": "cWAsrz6MOVI",
+        "author_id": 208,
+        "chapter_id": 36,
+        "position": 26,
         "reviewed": true,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:27:09.746Z",
-        "created_at": "2016-12-08T18:27:09.642Z",
+        "updated_at": "2016-12-08T20:51:35.294Z",
+        "created_at": "2016-12-08T20:51:35.210Z",
         "tags": [
 
         ],
@@ -198,14 +198,14 @@ Content-Type: application/json; charset=utf-8
         "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
         "answer_options": [
           {
-            "id": 124,
+            "id": 51,
             "position": 1,
             "content": "MyText",
             "content_html": "MyText",
             "correct": true
           },
           {
-            "id": 125,
+            "id": 52,
             "position": 2,
             "content": "MyText",
             "content_html": "MyText",
@@ -223,9 +223,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/chapters/53" -X GET \
+curl "api.goskive.com/v2/chapters/36" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 4fff0e79c7a06146df7e7f8b768f1c41e15fe2b148e6e01a7aa5ced34714019c"
+	-H "Authorization: Bearer 81f4d8d0db345cc2aab2925a6b5249f13753ed578d0e5a8988a3fcfebc834008"
 ```
 ## Update a chapter
 
@@ -235,9 +235,9 @@ curl "api.goskive.com/v2/chapters/53" -X GET \
 #### Endpoint
 
 ```
-PATCH /v2/chapters/47
+PATCH /v2/chapters/37
 Content-Type: application/json
-Authorization: Bearer c08b6a9aa97a356e921d870de7975e61f8dd1cb07e6f3d89dccdf3a7a77989b8
+Authorization: Bearer a603212c8b7f816b07f8d9831df2598028e8415671ba637a4cf0303ee8a28761
 ```
 
 `PATCH /v2/chapters/:chapter_id`
@@ -268,10 +268,10 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "chapter": {
-    "id": 47,
-    "updated_at": "2016-12-08T18:27:07.671Z",
-    "course_id": 108,
-    "author_id": 251,
+    "id": 37,
+    "updated_at": "2016-12-08T20:51:35.657Z",
+    "course_id": 51,
+    "author_id": 213,
     "permissions": [
       "update",
       "delete"
@@ -295,9 +295,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/chapters/47" -d '{"chapter":{"title":"Eggs and Flour"}}' -X PATCH \
+curl "api.goskive.com/v2/chapters/37" -d '{"chapter":{"title":"Eggs and Flour"}}' -X PATCH \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer c08b6a9aa97a356e921d870de7975e61f8dd1cb07e6f3d89dccdf3a7a77989b8"
+	-H "Authorization: Bearer a603212c8b7f816b07f8d9831df2598028e8415671ba637a4cf0303ee8a28761"
 ```
 # Comments
 
@@ -309,9 +309,9 @@ curl "api.goskive.com/v2/chapters/47" -d '{"chapter":{"title":"Eggs and Flour"}}
 #### Endpoint
 
 ```
-DELETE /v2/comments/9
+DELETE /v2/comments/8
 Content-Type: application/json
-Authorization: Bearer 02369a0bf34b727076a64c12d559b65f4487de43c69f20004216a9b388271b1c
+Authorization: Bearer 1215502432924529315b439711502c4c6b7188d2af40d6fc3f8a0300f3be6b0f
 ```
 
 `DELETE /v2/comments/:comment_id`
@@ -333,9 +333,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/comments/9" -d '' -X DELETE \
+curl "api.goskive.com/v2/comments/8" -d '' -X DELETE \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 02369a0bf34b727076a64c12d559b65f4487de43c69f20004216a9b388271b1c"
+	-H "Authorization: Bearer 1215502432924529315b439711502c4c6b7188d2af40d6fc3f8a0300f3be6b0f"
 ```
 ## Get a list of all comments
 
@@ -347,7 +347,7 @@ curl "api.goskive.com/v2/comments/9" -d '' -X DELETE \
 ```
 GET /v2/comments
 Content-Type: application/json
-Authorization: Bearer c5004169e058ed5319ac15b2a25f3bd5350ab67f29d3925c2541cedb52182165
+Authorization: Bearer ed10e8bac159dee13ced766992b0e963c94d5a9def2fda4de2c4901a7d27dfea
 ```
 
 `GET /v2/comments`
@@ -376,10 +376,158 @@ Content-Type: application/json; charset=utf-8
 {
   "comments": [
     {
-      "id": 26,
-      "author_id": 326,
+      "id": 9,
+      "author_id": 458,
       "reply_to_id": null,
-      "created_at": "2016-12-08T18:27:12.649Z",
+      "created_at": "2016-12-08T20:51:55.537Z",
+      "status": "published",
+      "subject_id": 124,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 10,
+      "author_id": 460,
+      "reply_to_id": 9,
+      "created_at": "2016-12-08T20:51:55.645Z",
+      "status": "published",
+      "subject_id": 125,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 11,
+      "author_id": 462,
+      "reply_to_id": null,
+      "created_at": "2016-12-08T20:51:55.777Z",
+      "status": "published",
+      "subject_id": 126,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 12,
+      "author_id": 464,
+      "reply_to_id": 11,
+      "created_at": "2016-12-08T20:51:55.879Z",
+      "status": "published",
+      "subject_id": 127,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 13,
+      "author_id": 466,
+      "reply_to_id": null,
+      "created_at": "2016-12-08T20:51:55.982Z",
+      "status": "reported",
+      "subject_id": 128,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 14,
+      "author_id": 468,
+      "reply_to_id": 13,
+      "created_at": "2016-12-08T20:51:56.086Z",
+      "status": "published",
+      "subject_id": 129,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 15,
+      "author_id": 470,
+      "reply_to_id": 13,
+      "created_at": "2016-12-08T20:51:56.190Z",
+      "status": "published",
+      "subject_id": 130,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    }
+  ]
+}
+```
+
+
+
+```shell
+curl "api.goskive.com/v2/comments" -X GET \
+	-H "Content-Type: application/json" \
+	-H "Authorization: Bearer ed10e8bac159dee13ced766992b0e963c94d5a9def2fda4de2c4901a7d27dfea"
+```
+## Get a list of all comments
+
+
+### Request
+
+#### Endpoint
+
+```
+GET /v2/comments
+Content-Type: application/json
+Authorization: Bearer 37d38b541b00eb2e82f85aafe1736fe46f90b15b45d44cbf1cea5403df4bc156
+```
+
+`GET /v2/comments`
+
+#### Parameters
+
+
+
+| Name | Description |
+|:-----|:------------|
+| status  | [Filter] Status: all(default)|published|unpublished|draft|reported |
+| level  | [Filter] Level: all(default)|top-level|replies |
+| page  | [Pagination] Page (max. 100 comments per page) |
+
+
+
+### Response
+
+```
+Content-Type: application/json; charset=utf-8
+200 OK
+```
+
+
+```json
+{
+  "comments": [
+    {
+      "id": 16,
+      "author_id": 473,
+      "reply_to_id": null,
+      "created_at": "2016-12-08T20:51:56.356Z",
+      "status": "published",
+      "subject_id": 131,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 17,
+      "author_id": 475,
+      "reply_to_id": 16,
+      "created_at": "2016-12-08T20:51:56.462Z",
+      "status": "published",
+      "subject_id": 132,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 18,
+      "author_id": 477,
+      "reply_to_id": null,
+      "created_at": "2016-12-08T20:51:56.568Z",
       "status": "published",
       "subject_id": 133,
       "subject_type": "Course",
@@ -387,10 +535,10 @@ Content-Type: application/json; charset=utf-8
       "feedback": null
     },
     {
-      "id": 27,
-      "author_id": 328,
-      "reply_to_id": 26,
-      "created_at": "2016-12-08T18:27:12.761Z",
+      "id": 19,
+      "author_id": 479,
+      "reply_to_id": 18,
+      "created_at": "2016-12-08T20:51:56.674Z",
       "status": "published",
       "subject_id": 134,
       "subject_type": "Course",
@@ -398,21 +546,21 @@ Content-Type: application/json; charset=utf-8
       "feedback": null
     },
     {
-      "id": 28,
-      "author_id": 330,
+      "id": 20,
+      "author_id": 481,
       "reply_to_id": null,
-      "created_at": "2016-12-08T18:27:12.878Z",
-      "status": "published",
+      "created_at": "2016-12-08T20:51:56.780Z",
+      "status": "reported",
       "subject_id": 135,
       "subject_type": "Course",
       "message": "Clearly this information is problematic.",
       "feedback": null
     },
     {
-      "id": 29,
-      "author_id": 332,
-      "reply_to_id": 28,
-      "created_at": "2016-12-08T18:27:12.998Z",
+      "id": 21,
+      "author_id": 483,
+      "reply_to_id": 20,
+      "created_at": "2016-12-08T20:51:56.884Z",
       "status": "published",
       "subject_id": 136,
       "subject_type": "Course",
@@ -420,37 +568,15 @@ Content-Type: application/json; charset=utf-8
       "feedback": null
     },
     {
-      "id": 30,
-      "author_id": 334,
-      "reply_to_id": null,
-      "created_at": "2016-12-08T18:27:13.115Z",
-      "status": "reported",
+      "id": 22,
+      "author_id": 485,
+      "reply_to_id": 20,
+      "created_at": "2016-12-08T20:51:56.992Z",
+      "status": "published",
       "subject_id": 137,
       "subject_type": "Course",
       "message": "Clearly this information is problematic.",
       "feedback": null
-    },
-    {
-      "id": 31,
-      "author_id": 336,
-      "reply_to_id": 30,
-      "created_at": "2016-12-08T18:27:13.227Z",
-      "status": "published",
-      "subject_id": 138,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 32,
-      "author_id": 338,
-      "reply_to_id": 30,
-      "created_at": "2016-12-08T18:27:13.345Z",
-      "status": "published",
-      "subject_id": 139,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
     }
   ]
 }
@@ -461,133 +587,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/comments" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer c5004169e058ed5319ac15b2a25f3bd5350ab67f29d3925c2541cedb52182165"
-```
-## Get a list of all comments
-
-
-### Request
-
-#### Endpoint
-
-```
-GET /v2/comments
-Content-Type: application/json
-Authorization: Bearer e27c580b76876f66b19d120fb9bbc421eb0fe2ad5bfaa537d313f27ee3f20c66
-```
-
-`GET /v2/comments`
-
-#### Parameters
-
-
-
-| Name | Description |
-|:-----|:------------|
-| status  | [Filter] Status: all(default)|published|unpublished|draft|reported |
-| level  | [Filter] Level: all(default)|top-level|replies |
-| page  | [Pagination] Page (max. 100 comments per page) |
-
-
-
-### Response
-
-```
-Content-Type: application/json; charset=utf-8
-200 OK
-```
-
-
-```json
-{
-  "comments": [
-    {
-      "id": 40,
-      "author_id": 356,
-      "reply_to_id": null,
-      "created_at": "2016-12-08T18:27:14.592Z",
-      "status": "published",
-      "subject_id": 147,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 41,
-      "author_id": 358,
-      "reply_to_id": 40,
-      "created_at": "2016-12-08T18:27:14.696Z",
-      "status": "published",
-      "subject_id": 148,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 42,
-      "author_id": 360,
-      "reply_to_id": null,
-      "created_at": "2016-12-08T18:27:14.802Z",
-      "status": "published",
-      "subject_id": 149,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 43,
-      "author_id": 362,
-      "reply_to_id": 42,
-      "created_at": "2016-12-08T18:27:14.905Z",
-      "status": "published",
-      "subject_id": 150,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 44,
-      "author_id": 364,
-      "reply_to_id": null,
-      "created_at": "2016-12-08T18:27:15.011Z",
-      "status": "reported",
-      "subject_id": 151,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 45,
-      "author_id": 366,
-      "reply_to_id": 44,
-      "created_at": "2016-12-08T18:27:15.115Z",
-      "status": "published",
-      "subject_id": 152,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 46,
-      "author_id": 368,
-      "reply_to_id": 44,
-      "created_at": "2016-12-08T18:27:15.220Z",
-      "status": "published",
-      "subject_id": 153,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    }
-  ]
-}
-```
-
-
-
-```shell
-curl "api.goskive.com/v2/comments" -X GET \
-	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer e27c580b76876f66b19d120fb9bbc421eb0fe2ad5bfaa537d313f27ee3f20c66"
+	-H "Authorization: Bearer 37d38b541b00eb2e82f85aafe1736fe46f90b15b45d44cbf1cea5403df4bc156"
 ```
 ## Get a list of comments filtered by level
 
@@ -599,7 +599,7 @@ curl "api.goskive.com/v2/comments" -X GET \
 ```
 GET /v2/comments?level=replies
 Content-Type: application/json
-Authorization: Bearer f49a83f642a28a5f21c6192c5f064bb401de3c161d9ffcde4d970ffc5c2b016d
+Authorization: Bearer b1a559a8fade395d41625e614c7146f7fbed7c4959fbfcdce966daf62627a876
 ```
 
 `GET /v2/comments`
@@ -632,45 +632,45 @@ Content-Type: application/json; charset=utf-8
 {
   "comments": [
     {
-      "id": 34,
-      "author_id": 343,
-      "reply_to_id": 33,
-      "created_at": "2016-12-08T18:27:13.642Z",
+      "id": 31,
+      "author_id": 505,
+      "reply_to_id": 30,
+      "created_at": "2016-12-08T20:51:58.068Z",
       "status": "published",
-      "subject_id": 141,
+      "subject_id": 146,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 33,
+      "author_id": 509,
+      "reply_to_id": 32,
+      "created_at": "2016-12-08T20:51:58.288Z",
+      "status": "published",
+      "subject_id": 148,
+      "subject_type": "Course",
+      "message": "Clearly this information is problematic.",
+      "feedback": null
+    },
+    {
+      "id": 35,
+      "author_id": 513,
+      "reply_to_id": 34,
+      "created_at": "2016-12-08T20:51:58.539Z",
+      "status": "published",
+      "subject_id": 150,
       "subject_type": "Course",
       "message": "Clearly this information is problematic.",
       "feedback": null
     },
     {
       "id": 36,
-      "author_id": 347,
-      "reply_to_id": 35,
-      "created_at": "2016-12-08T18:27:13.871Z",
+      "author_id": 515,
+      "reply_to_id": 34,
+      "created_at": "2016-12-08T20:51:58.650Z",
       "status": "published",
-      "subject_id": 143,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 38,
-      "author_id": 351,
-      "reply_to_id": 37,
-      "created_at": "2016-12-08T18:27:14.098Z",
-      "status": "published",
-      "subject_id": 145,
-      "subject_type": "Course",
-      "message": "Clearly this information is problematic.",
-      "feedback": null
-    },
-    {
-      "id": 39,
-      "author_id": 353,
-      "reply_to_id": 37,
-      "created_at": "2016-12-08T18:27:14.217Z",
-      "status": "published",
-      "subject_id": 146,
+      "subject_id": 151,
       "subject_type": "Course",
       "message": "Clearly this information is problematic.",
       "feedback": null
@@ -684,7 +684,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/comments?level=replies" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer f49a83f642a28a5f21c6192c5f064bb401de3c161d9ffcde4d970ffc5c2b016d"
+	-H "Authorization: Bearer b1a559a8fade395d41625e614c7146f7fbed7c4959fbfcdce966daf62627a876"
 ```
 ## Get a list of comments filtered by status
 
@@ -696,7 +696,7 @@ curl "api.goskive.com/v2/comments?level=replies" -X GET \
 ```
 GET /v2/comments?status=reported
 Content-Type: application/json
-Authorization: Bearer 6c4ccd3c2fbd64c06349d84be5d4ccf487121f2908f3d29b45a9a363d6e63570
+Authorization: Bearer 63dbb9a14f848caa94228274ee049ff90e67313997b18c344c294a327aa320a9
 ```
 
 `GET /v2/comments`
@@ -729,12 +729,12 @@ Content-Type: application/json; charset=utf-8
 {
   "comments": [
     {
-      "id": 16,
-      "author_id": 304,
+      "id": 41,
+      "author_id": 526,
       "reply_to_id": null,
-      "created_at": "2016-12-08T18:27:11.433Z",
+      "created_at": "2016-12-08T20:51:59.286Z",
       "status": "reported",
-      "subject_id": 123,
+      "subject_id": 156,
       "subject_type": "Course",
       "message": "Clearly this information is problematic.",
       "feedback": null
@@ -748,7 +748,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/comments?status=reported" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 6c4ccd3c2fbd64c06349d84be5d4ccf487121f2908f3d29b45a9a363d6e63570"
+	-H "Authorization: Bearer 63dbb9a14f848caa94228274ee049ff90e67313997b18c344c294a327aa320a9"
 ```
 ## republishes the comment
 
@@ -758,9 +758,9 @@ curl "api.goskive.com/v2/comments?status=reported" -X GET \
 #### Endpoint
 
 ```
-PUT /v2/comments/48/republish
+PUT /v2/comments/5/republish
 Content-Type: application/json
-Authorization: Bearer 0a1e1e01accd3453dac50b604c2a89f18005bbea338276ac1c58f6b99418e58e
+Authorization: Bearer e2c1bdbd3d35c97db14e0211bf7288ffa0c601553a0943fdba34c08eb9ed2f88
 ```
 
 `PUT /v2/comments/:comment_id/republish`
@@ -782,9 +782,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/comments/48/republish" -d '' -X PUT \
+curl "api.goskive.com/v2/comments/5/republish" -d '' -X PUT \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 0a1e1e01accd3453dac50b604c2a89f18005bbea338276ac1c58f6b99418e58e"
+	-H "Authorization: Bearer e2c1bdbd3d35c97db14e0211bf7288ffa0c601553a0943fdba34c08eb9ed2f88"
 ```
 # Course Chapters
 
@@ -798,7 +798,7 @@ curl "api.goskive.com/v2/comments/48/republish" -d '' -X PUT \
 ```
 POST /v2/courses/fu-choux-pastry-101/chapters
 Content-Type: application/json
-Authorization: Bearer fd66d5cc93db85fd59cb5d2abd223fb7570a56a94d8c957533dba852a4ef605e
+Authorization: Bearer 5e75faa2a4b3a26da5e54711eda96915cb69a58d6dd32ae40c320a27b897eab2
 ```
 
 `POST /v2/courses/:course_slug/chapters`
@@ -829,10 +829,10 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "chapter": {
-    "id": 194,
-    "updated_at": "2016-12-08T18:28:02.947Z",
-    "course_id": 315,
-    "author_id": 980,
+    "id": 77,
+    "updated_at": "2016-12-08T20:51:44.349Z",
+    "course_id": 82,
+    "author_id": 331,
     "permissions": [
       "update",
       "delete"
@@ -858,7 +858,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/courses/fu-choux-pastry-101/chapters" -d '{"chapter":{"title":"Preparing the oven"}}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer fd66d5cc93db85fd59cb5d2abd223fb7570a56a94d8c957533dba852a4ef605e"
+	-H "Authorization: Bearer 5e75faa2a4b3a26da5e54711eda96915cb69a58d6dd32ae40c320a27b897eab2"
 ```
 ## Create a chapter
 
@@ -868,9 +868,9 @@ curl "api.goskive.com/v2/courses/fu-choux-pastry-101/chapters" -d '{"chapter":{"
 #### Endpoint
 
 ```
-POST /v2/courses/316/chapters
+POST /v2/courses/84/chapters
 Content-Type: application/json
-Authorization: Bearer 9744ee0632cfd4f222fba48b06dece29102a4032a90401f64c52ba59c8f43b6a
+Authorization: Bearer 5a59f642a4cac11daf2bc9a0a68660f0cd6119294b6b23f9eb6f15ed85bc0f32
 ```
 
 `POST /v2/courses/:course_slug/chapters`
@@ -901,10 +901,10 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "chapter": {
-    "id": 195,
-    "updated_at": "2016-12-08T18:28:03.113Z",
-    "course_id": 316,
-    "author_id": 982,
+    "id": 79,
+    "updated_at": "2016-12-08T20:51:44.679Z",
+    "course_id": 84,
+    "author_id": 335,
     "permissions": [
       "update",
       "delete"
@@ -928,9 +928,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/courses/316/chapters" -d '{"chapter":{"title":"Preparing the oven"}}' -X POST \
+curl "api.goskive.com/v2/courses/84/chapters" -d '{"chapter":{"title":"Preparing the oven"}}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 9744ee0632cfd4f222fba48b06dece29102a4032a90401f64c52ba59c8f43b6a"
+	-H "Authorization: Bearer 5a59f642a4cac11daf2bc9a0a68660f0cd6119294b6b23f9eb6f15ed85bc0f32"
 ```
 ## Get a list including counts, permissions
 
@@ -942,7 +942,7 @@ curl "api.goskive.com/v2/courses/316/chapters" -d '{"chapter":{"title":"Preparin
 ```
 GET /v2/courses/fu-choux-pastry-101/chapters
 Content-Type: application/json
-Authorization: Bearer c139fe112011337d35a6e81a3a1f885b4616e6c7bdf335a49decceba551580fd
+Authorization: Bearer c39d67c27bed1fface915b64255bd14fef59a42a93e9c9d2f59a80c92960be5f
 ```
 
 `GET /v2/courses/:course_slug/chapters`
@@ -965,10 +965,10 @@ Content-Type: application/json; charset=utf-8
 {
   "chapters": [
     {
-      "id": 175,
-      "updated_at": "2016-12-08T18:28:00.263Z",
-      "course_id": 304,
-      "author_id": 937,
+      "id": 56,
+      "updated_at": "2016-12-08T20:51:41.469Z",
+      "course_id": 70,
+      "author_id": 283,
       "permissions": [
         "update",
         "delete"
@@ -977,14 +977,14 @@ Content-Type: application/json; charset=utf-8
       "questions_updated_at": null,
       "flashcards_count": 0,
       "questions_count": 0,
-      "title": "Clever Chapter Title 154",
+      "title": "Clever Chapter Title 47",
       "position": 1
     },
     {
-      "id": 176,
-      "updated_at": "2016-12-08T18:28:00.287Z",
-      "course_id": 304,
-      "author_id": 938,
+      "id": 57,
+      "updated_at": "2016-12-08T20:51:41.494Z",
+      "course_id": 70,
+      "author_id": 284,
       "permissions": [
         "update",
         "delete"
@@ -993,23 +993,23 @@ Content-Type: application/json; charset=utf-8
       "questions_updated_at": null,
       "flashcards_count": 0,
       "questions_count": 0,
-      "title": "Clever Chapter Title 155",
+      "title": "Clever Chapter Title 48",
       "position": 2
     },
     {
-      "id": 177,
-      "updated_at": "2016-12-08T18:28:00.503Z",
-      "course_id": 304,
-      "author_id": 939,
+      "id": 58,
+      "updated_at": "2016-12-08T20:51:41.710Z",
+      "course_id": 70,
+      "author_id": 285,
       "permissions": [
         "update",
         "delete"
       ],
-      "flashcards_updated_at": "2016-12-08T18:28:00.161Z",
-      "questions_updated_at": "2016-12-08T18:28:00.161Z",
+      "flashcards_updated_at": "2016-12-08T20:51:41.371Z",
+      "questions_updated_at": "2016-12-08T20:51:41.371Z",
       "flashcards_count": 1,
       "questions_count": 1,
-      "title": "Clever Chapter Title 156",
+      "title": "Clever Chapter Title 49",
       "position": 3
     }
   ]
@@ -1021,7 +1021,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/courses/fu-choux-pastry-101/chapters" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer c139fe112011337d35a6e81a3a1f885b4616e6c7bdf335a49decceba551580fd"
+	-H "Authorization: Bearer c39d67c27bed1fface915b64255bd14fef59a42a93e9c9d2f59a80c92960be5f"
 ```
 ## Get a list of course chapters
 
@@ -1033,7 +1033,7 @@ curl "api.goskive.com/v2/courses/fu-choux-pastry-101/chapters" -X GET \
 ```
 GET /v2/courses/fu-choux-pastry-101/chapters
 Content-Type: application/json
-Authorization: Bearer 3069d3498f10645d22626050d7932ae58701b9466a6c3b85c414d4e188192167
+Authorization: Bearer daba0d81be649b54cefd7c6a1991e58f4463991644d57dcc4687fa6036c69548
 ```
 
 `GET /v2/courses/:course_slug/chapters`
@@ -1056,10 +1056,10 @@ Content-Type: application/json; charset=utf-8
 {
   "chapters": [
     {
-      "id": 178,
-      "updated_at": "2016-12-08T18:28:00.820Z",
-      "course_id": 306,
-      "author_id": 946,
+      "id": 59,
+      "updated_at": "2016-12-08T20:51:42.015Z",
+      "course_id": 72,
+      "author_id": 292,
       "permissions": [
         "update",
         "delete"
@@ -1068,14 +1068,14 @@ Content-Type: application/json; charset=utf-8
       "questions_updated_at": null,
       "flashcards_count": 0,
       "questions_count": 0,
-      "title": "Clever Chapter Title 157",
+      "title": "Clever Chapter Title 50",
       "position": 1
     },
     {
-      "id": 179,
-      "updated_at": "2016-12-08T18:28:00.845Z",
-      "course_id": 306,
-      "author_id": 947,
+      "id": 60,
+      "updated_at": "2016-12-08T20:51:42.041Z",
+      "course_id": 72,
+      "author_id": 293,
       "permissions": [
         "update",
         "delete"
@@ -1084,14 +1084,14 @@ Content-Type: application/json; charset=utf-8
       "questions_updated_at": null,
       "flashcards_count": 0,
       "questions_count": 0,
-      "title": "Clever Chapter Title 158",
+      "title": "Clever Chapter Title 51",
       "position": 2
     },
     {
-      "id": 180,
-      "updated_at": "2016-12-08T18:28:00.870Z",
-      "course_id": 306,
-      "author_id": 948,
+      "id": 61,
+      "updated_at": "2016-12-08T20:51:42.067Z",
+      "course_id": 72,
+      "author_id": 294,
       "permissions": [
         "update",
         "delete"
@@ -1100,7 +1100,7 @@ Content-Type: application/json; charset=utf-8
       "questions_updated_at": null,
       "flashcards_count": 0,
       "questions_count": 0,
-      "title": "Clever Chapter Title 159",
+      "title": "Clever Chapter Title 52",
       "position": 3
     }
   ]
@@ -1112,7 +1112,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/courses/fu-choux-pastry-101/chapters" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 3069d3498f10645d22626050d7932ae58701b9466a6c3b85c414d4e188192167"
+	-H "Authorization: Bearer daba0d81be649b54cefd7c6a1991e58f4463991644d57dcc4687fa6036c69548"
 ```
 # Courses
 
@@ -1124,9 +1124,9 @@ curl "api.goskive.com/v2/courses/fu-choux-pastry-101/chapters" -X GET \
 #### Endpoint
 
 ```
-DELETE /v2/courses/4
+DELETE /v2/courses/165
 Content-Type: application/json
-Authorization: Bearer ca9328abc2bfb4c05a3a2f5547b7546144c465fc085f61e742b6bfd39a3707ca
+Authorization: Bearer 8cc5608e08aff8466e12e922767730dedd67ac8b1fc811f7cff4363027608369
 ```
 
 `DELETE /v2/courses/:course_slug`
@@ -1148,9 +1148,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/courses/4" -d '' -X DELETE \
+curl "api.goskive.com/v2/courses/165" -d '' -X DELETE \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer ca9328abc2bfb4c05a3a2f5547b7546144c465fc085f61e742b6bfd39a3707ca"
+	-H "Authorization: Bearer 8cc5608e08aff8466e12e922767730dedd67ac8b1fc811f7cff4363027608369"
 ```
 ## Delete a course
 
@@ -1162,7 +1162,7 @@ curl "api.goskive.com/v2/courses/4" -d '' -X DELETE \
 ```
 DELETE /v2/courses/fu-choux-pastry-101
 Content-Type: application/json
-Authorization: Bearer 61a33a7ca8b5c188cf703327cfd29a322fccd0c4cbf039ae8ad654cb6647172b
+Authorization: Bearer 5dda30f358d1bae1c05cc1176e3ebd530cd55734808407bb33535463d53e19ad
 ```
 
 `DELETE /v2/courses/:course_slug`
@@ -1186,7 +1186,7 @@ None known.
 ```shell
 curl "api.goskive.com/v2/courses/fu-choux-pastry-101" -d '' -X DELETE \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 61a33a7ca8b5c188cf703327cfd29a322fccd0c4cbf039ae8ad654cb6647172b"
+	-H "Authorization: Bearer 5dda30f358d1bae1c05cc1176e3ebd530cd55734808407bb33535463d53e19ad"
 ```
 ## Get a course
 
@@ -1198,7 +1198,7 @@ curl "api.goskive.com/v2/courses/fu-choux-pastry-101" -d '' -X DELETE \
 ```
 GET /v2/courses/fu-choux-pastry-101?include=flashcards%2C+invalid_resources
 Content-Type: application/json
-Authorization: Bearer 4c869c97389e9cc75889bc71449ee13b55b8a7ea6bd25c4255c125a0a51f2cd8
+Authorization: Bearer f6ed104bc674ce4bbb9206b312006d11401de97ccc578b200c98a326674a8ad2
 ```
 
 `GET /v2/courses/:course_slug`
@@ -1228,16 +1228,16 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "course": {
-    "creator_id": 51,
-    "id": 16,
+    "creator_id": 575,
+    "id": 176,
     "self_url": "http://api.goskive.test/api/v2/courses/fu-choux-pastry-101",
     "html_url": "https://goskive.com/course/fu-choux-pastry-101",
     "slug": "fu-choux-pastry-101",
-    "university_id": 16,
+    "university_id": 177,
     "additional_university_ids": [
 
     ],
-    "discipline_id": 21,
+    "discipline_id": 184,
     "permissions": [
       "update",
       "delete"
@@ -1258,21 +1258,21 @@ Content-Type: application/json; charset=utf-8
     "campaign_ids": [
 
     ],
-    "chapters_updated_at": "2016-12-08T18:26:44.764Z",
-    "updated_at": "2016-12-08T18:26:46.003Z",
+    "chapters_updated_at": "2016-12-08T20:52:05.572Z",
+    "updated_at": "2016-12-08T20:52:06.905Z",
     "shortname": "fu-choux-pastry-101",
     "flashcards": [
       {
-        "id": 15,
-        "obfuscated_id": "j5PwoYQzNCc",
-        "author_id": 51,
-        "chapter_id": 12,
+        "id": 39,
+        "obfuscated_id": "N0Vv2_jrTfU",
+        "author_id": 575,
+        "chapter_id": 100,
         "position": 1,
         "reviewed": false,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:26:45.782Z",
-        "created_at": "2016-12-08T18:26:45.782Z",
+        "updated_at": "2016-12-08T20:52:06.666Z",
+        "created_at": "2016-12-08T20:52:06.666Z",
         "tags": [
 
         ],
@@ -1285,16 +1285,16 @@ Content-Type: application/json; charset=utf-8
         "back_content_html": "<p>I'm the content</p>"
       },
       {
-        "id": 17,
-        "obfuscated_id": "s3oqsdqLejU",
-        "author_id": 51,
-        "chapter_id": 13,
+        "id": 41,
+        "obfuscated_id": "11qbskrctUU",
+        "author_id": 575,
+        "chapter_id": 101,
         "position": 1,
         "reviewed": false,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:26:45.858Z",
-        "created_at": "2016-12-08T18:26:45.858Z",
+        "updated_at": "2016-12-08T20:52:06.748Z",
+        "created_at": "2016-12-08T20:52:06.748Z",
         "tags": [
 
         ],
@@ -1307,16 +1307,16 @@ Content-Type: application/json; charset=utf-8
         "back_content_html": "<p>I'm the content</p>"
       },
       {
-        "id": 16,
-        "obfuscated_id": "Drq0t9y67cE",
-        "author_id": 51,
-        "chapter_id": 12,
+        "id": 40,
+        "obfuscated_id": "lir5nwklJts",
+        "author_id": 575,
+        "chapter_id": 100,
         "position": 2,
         "reviewed": false,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:26:45.825Z",
-        "created_at": "2016-12-08T18:26:45.825Z",
+        "updated_at": "2016-12-08T20:52:06.713Z",
+        "created_at": "2016-12-08T20:52:06.713Z",
         "tags": [
 
         ],
@@ -1329,16 +1329,16 @@ Content-Type: application/json; charset=utf-8
         "back_content_html": "<p>I'm the content</p>"
       },
       {
-        "id": 18,
-        "obfuscated_id": "9KZ-wsvd6MY",
-        "author_id": 51,
-        "chapter_id": 13,
+        "id": 42,
+        "obfuscated_id": "6gppIIjkzlA",
+        "author_id": 575,
+        "chapter_id": 101,
         "position": 2,
         "reviewed": false,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:26:45.901Z",
-        "created_at": "2016-12-08T18:26:45.901Z",
+        "updated_at": "2016-12-08T20:52:06.793Z",
+        "created_at": "2016-12-08T20:52:06.793Z",
         "tags": [
 
         ],
@@ -1351,16 +1351,16 @@ Content-Type: application/json; charset=utf-8
         "back_content_html": "<p>I'm the content</p>"
       },
       {
-        "id": 19,
-        "obfuscated_id": "xt199h-LGto",
-        "author_id": 54,
-        "chapter_id": 12,
+        "id": 43,
+        "obfuscated_id": "uapnSdBCag8",
+        "author_id": 578,
+        "chapter_id": 100,
         "position": 3,
         "reviewed": true,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:26:45.941Z",
-        "created_at": "2016-12-08T18:26:45.941Z",
+        "updated_at": "2016-12-08T20:52:06.837Z",
+        "created_at": "2016-12-08T20:52:06.837Z",
         "tags": [
 
         ],
@@ -1373,16 +1373,16 @@ Content-Type: application/json; charset=utf-8
         "back_content_html": "<p>I'm the content</p>"
       },
       {
-        "id": 20,
-        "obfuscated_id": "4DFpearSrHk",
-        "author_id": 55,
-        "chapter_id": 13,
+        "id": 44,
+        "obfuscated_id": "bbNlnrscV_w",
+        "author_id": 579,
+        "chapter_id": 101,
         "position": 3,
         "reviewed": true,
         "upvotes_count": 0,
         "downvotes_count": 0,
-        "updated_at": "2016-12-08T18:26:45.982Z",
-        "created_at": "2016-12-08T18:26:45.982Z",
+        "updated_at": "2016-12-08T20:52:06.882Z",
+        "created_at": "2016-12-08T20:52:06.882Z",
         "tags": [
 
         ],
@@ -1397,39 +1397,39 @@ Content-Type: application/json; charset=utf-8
     ],
     "chapters": [
       {
-        "id": 12,
-        "updated_at": "2016-12-08T18:26:45.952Z",
-        "course_id": 16,
-        "author_id": 51,
+        "id": 100,
+        "updated_at": "2016-12-08T20:52:06.848Z",
+        "course_id": 176,
+        "author_id": 575,
         "permissions": [
           "update",
           "delete"
         ],
-        "flashcards_updated_at": "2016-12-08T18:26:44.764Z",
-        "questions_updated_at": "2016-12-08T18:26:44.764Z",
+        "flashcards_updated_at": "2016-12-08T20:52:05.572Z",
+        "questions_updated_at": "2016-12-08T20:52:05.572Z",
         "flashcards_count": 3,
         "questions_count": 3,
-        "title": "Clever Chapter Title 12",
+        "title": "Clever Chapter Title 88",
         "position": 1
       },
       {
-        "id": 13,
-        "updated_at": "2016-12-08T18:26:45.992Z",
-        "course_id": 16,
-        "author_id": 51,
+        "id": 101,
+        "updated_at": "2016-12-08T20:52:06.894Z",
+        "course_id": 176,
+        "author_id": 575,
         "permissions": [
           "update",
           "delete"
         ],
-        "flashcards_updated_at": "2016-12-08T18:26:44.764Z",
-        "questions_updated_at": "2016-12-08T18:26:44.764Z",
+        "flashcards_updated_at": "2016-12-08T20:52:05.572Z",
+        "questions_updated_at": "2016-12-08T20:52:05.572Z",
         "flashcards_count": 3,
         "questions_count": 3,
-        "title": "Clever Chapter Title 13",
+        "title": "Clever Chapter Title 89",
         "position": 2
       }
     ],
-    "topic_id": 21,
+    "topic_id": 184,
     "language_code": "de",
     "exam_months": [
 
@@ -1446,7 +1446,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/courses/fu-choux-pastry-101?include=flashcards%2C+invalid_resources" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 4c869c97389e9cc75889bc71449ee13b55b8a7ea6bd25c4255c125a0a51f2cd8"
+	-H "Authorization: Bearer f6ed104bc674ce4bbb9206b312006d11401de97ccc578b200c98a326674a8ad2"
 ```
 ## Update a course
 
@@ -1456,9 +1456,9 @@ curl "api.goskive.com/v2/courses/fu-choux-pastry-101?include=flashcards%2C+inval
 #### Endpoint
 
 ```
-PATCH /v2/courses/21
+PATCH /v2/courses/164
 Content-Type: application/json
-Authorization: Bearer 87213fdc762fa61677aa1f87aef52348c72b8ee136d917a7840e61145f188768
+Authorization: Bearer e66a0c83d53996f50bd0903b10de69117d329008c95def7bbf9228d1b7e1c65e
 ```
 
 `PATCH /v2/courses/:course_slug`
@@ -1504,16 +1504,16 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "course": {
-    "creator_id": 68,
-    "id": 21,
+    "creator_id": 542,
+    "id": 164,
     "self_url": "http://api.goskive.test/api/v2/courses/fu-choux-pastry-102",
     "html_url": "https://goskive.com/course/fu-choux-pastry-102",
     "slug": "fu-choux-pastry-102",
-    "university_id": 21,
+    "university_id": 165,
     "additional_university_ids": [
 
     ],
-    "discipline_id": 26,
+    "discipline_id": 172,
     "permissions": [
       "update",
       "delete"
@@ -1535,12 +1535,12 @@ Content-Type: application/json; charset=utf-8
 
     ],
     "chapters_updated_at": null,
-    "updated_at": "2016-12-08T18:26:48.187Z",
+    "updated_at": "2016-12-08T20:52:00.606Z",
     "shortname": "fu-choux-pastry-102",
     "chapters": [
 
     ],
-    "topic_id": 26,
+    "topic_id": 172,
     "language_code": "fr",
     "exam_months": [
 
@@ -1555,9 +1555,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/courses/21" -d '{"course":{"title":"Choux pastry 102","language_code":"fr"}}' -X PATCH \
+curl "api.goskive.com/v2/courses/164" -d '{"course":{"title":"Choux pastry 102","language_code":"fr"}}' -X PATCH \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 87213fdc762fa61677aa1f87aef52348c72b8ee136d917a7840e61145f188768"
+	-H "Authorization: Bearer e66a0c83d53996f50bd0903b10de69117d329008c95def7bbf9228d1b7e1c65e"
 ```
 ## Update permitted course properties
 
@@ -1569,7 +1569,7 @@ curl "api.goskive.com/v2/courses/21" -d '{"course":{"title":"Choux pastry 102","
 ```
 PATCH /v2/courses/fu-choux-pastry-101
 Content-Type: application/json
-Authorization: Bearer 6d2edfa1f9abe72bbabd7afc6c566b9269fbf0a639612efb5d276f2f6c0932c5
+Authorization: Bearer 0158fe63b0de431b8a4565572a7fc026debe6eb696ac60f677bdace23b12ca03
 ```
 
 `PATCH /v2/courses/:course_slug`
@@ -1615,16 +1615,16 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "course": {
-    "creator_id": 66,
-    "id": 20,
+    "creator_id": 539,
+    "id": 162,
     "self_url": "http://api.goskive.test/api/v2/courses/fu-choux-pastry-102",
     "html_url": "https://goskive.com/course/fu-choux-pastry-102",
     "slug": "fu-choux-pastry-102",
-    "university_id": 20,
+    "university_id": 163,
     "additional_university_ids": [
 
     ],
-    "discipline_id": 25,
+    "discipline_id": 170,
     "permissions": [
       "update",
       "delete"
@@ -1646,12 +1646,12 @@ Content-Type: application/json; charset=utf-8
 
     ],
     "chapters_updated_at": null,
-    "updated_at": "2016-12-08T18:26:48.016Z",
+    "updated_at": "2016-12-08T20:52:00.212Z",
     "shortname": "fu-choux-pastry-102",
     "chapters": [
 
     ],
-    "topic_id": 25,
+    "topic_id": 170,
     "language_code": "fr",
     "exam_months": [
 
@@ -1668,7 +1668,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/courses/fu-choux-pastry-101" -d '{"course":{"title":"Choux pastry 102","language_code":"fr","published":false}}' -X PATCH \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 6d2edfa1f9abe72bbabd7afc6c566b9269fbf0a639612efb5d276f2f6c0932c5"
+	-H "Authorization: Bearer 0158fe63b0de431b8a4565572a7fc026debe6eb696ac60f677bdace23b12ca03"
 ```
 # Feedback
 
@@ -1682,7 +1682,7 @@ curl "api.goskive.com/v2/courses/fu-choux-pastry-101" -d '{"course":{"title":"Ch
 ```
 GET /v2/feedbacks
 Content-Type: application/json
-Authorization: Bearer 8185cb2d157e92762e82b1f574485a482e5d76cca63785bbdf8dd3c96afb93de
+Authorization: Bearer 4cc2ef32ec73756b5c65cee44fffd21ab00b7a528d68934375e15ce5abdf5c05
 ```
 
 `GET /v2/feedbacks`
@@ -1710,52 +1710,52 @@ Content-Type: application/json; charset=utf-8
 {
   "feedbacks": [
     {
-      "id": 33,
-      "user_id": 706,
-      "feedbackable_id": 99,
+      "id": 15,
+      "user_id": 94,
+      "feedbackable_id": 18,
       "feedbackable_type": "Question",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:41.877Z",
+      "updated_at": "2016-12-08T20:51:27.787Z",
       "flags": 1,
       "message": ""
     },
     {
-      "id": 34,
-      "user_id": 710,
-      "feedbackable_id": 100,
+      "id": 16,
+      "user_id": 98,
+      "feedbackable_id": 19,
       "feedbackable_type": "Question",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:42.148Z",
+      "updated_at": "2016-12-08T20:51:28.056Z",
       "flags": 1,
       "message": ""
     },
     {
-      "id": 35,
-      "user_id": 714,
-      "feedbackable_id": 101,
+      "id": 17,
+      "user_id": 102,
+      "feedbackable_id": 20,
       "feedbackable_type": "Question",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:42.420Z",
+      "updated_at": "2016-12-08T20:51:28.328Z",
       "flags": 1,
       "message": ""
     },
     {
-      "id": 36,
-      "user_id": 718,
-      "feedbackable_id": 102,
+      "id": 18,
+      "user_id": 106,
+      "feedbackable_id": 21,
       "feedbackable_type": "Question",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:42.693Z",
+      "updated_at": "2016-12-08T20:51:28.602Z",
       "flags": 1,
       "message": ""
     },
     {
-      "id": 37,
-      "user_id": 722,
-      "feedbackable_id": 103,
+      "id": 19,
+      "user_id": 110,
+      "feedbackable_id": 22,
       "feedbackable_type": "Question",
       "workflow_state": "abandoned",
-      "updated_at": "2016-12-08T18:27:42.967Z",
+      "updated_at": "2016-12-08T20:51:28.877Z",
       "flags": 1,
       "message": ""
     }
@@ -1768,7 +1768,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/feedbacks" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 8185cb2d157e92762e82b1f574485a482e5d76cca63785bbdf8dd3c96afb93de"
+	-H "Authorization: Bearer 4cc2ef32ec73756b5c65cee44fffd21ab00b7a528d68934375e15ce5abdf5c05"
 ```
 ## Get a list of feedbacks filtered by status
 
@@ -1780,7 +1780,7 @@ curl "api.goskive.com/v2/feedbacks" -X GET \
 ```
 GET /v2/feedbacks?status=abandoned
 Content-Type: application/json
-Authorization: Bearer a4ec88997490fd4c468df855b8954c19aec6306ecf934b2ef2e0368cce58aff6
+Authorization: Bearer 3a6b351ae168022c49c49f618cd12cb539a477022dba0f057670f930d47d9041
 ```
 
 `GET /v2/feedbacks`
@@ -1812,12 +1812,12 @@ Content-Type: application/json; charset=utf-8
 {
   "feedbacks": [
     {
-      "id": 32,
-      "user_id": 701,
-      "feedbackable_id": 98,
+      "id": 14,
+      "user_id": 89,
+      "feedbackable_id": 17,
       "feedbackable_type": "Question",
       "workflow_state": "abandoned",
-      "updated_at": "2016-12-08T18:27:41.542Z",
+      "updated_at": "2016-12-08T20:51:27.477Z",
       "flags": 1,
       "message": ""
     }
@@ -1830,7 +1830,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/feedbacks?status=abandoned" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer a4ec88997490fd4c468df855b8954c19aec6306ecf934b2ef2e0368cce58aff6"
+	-H "Authorization: Bearer 3a6b351ae168022c49c49f618cd12cb539a477022dba0f057670f930d47d9041"
 ```
 # Files
 
@@ -1842,9 +1842,9 @@ curl "api.goskive.com/v2/feedbacks?status=abandoned" -X GET \
 #### Endpoint
 
 ```
-DELETE /v2/files/11
+DELETE /v2/files/8
 Content-Type: application/json
-Authorization: Bearer 737afd4b82144fae89bd8335738bb697b5cf66c363c726d5a3ccb026e9ac3845
+Authorization: Bearer 17660c3631b195fd0e99f7d58a39efa3ab282f417be074348c33178e07e62438
 ```
 
 `DELETE /v2/files/:file_id`
@@ -1866,9 +1866,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/files/11" -d '' -X DELETE \
+curl "api.goskive.com/v2/files/8" -d '' -X DELETE \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 737afd4b82144fae89bd8335738bb697b5cf66c363c726d5a3ccb026e9ac3845"
+	-H "Authorization: Bearer 17660c3631b195fd0e99f7d58a39efa3ab282f417be074348c33178e07e62438"
 ```
 ## Get a file metadata
 
@@ -1878,9 +1878,9 @@ curl "api.goskive.com/v2/files/11" -d '' -X DELETE \
 #### Endpoint
 
 ```
-GET /v2/files/16/metadata
+GET /v2/files/5/metadata
 Content-Type: application/json
-Authorization: Bearer a6b0c333359d44e3c151abc7f71bf4343bdbe7ddc0395deb6e6553adaa9d4d6a
+Authorization: Bearer 08960eb55d2a1f533faf89798912dce97dd273bf5defdd37bdfe0362e01ed4fd
 ```
 
 `GET /v2/files/:file_id/metadata`
@@ -1902,9 +1902,9 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "file": {
-    "id": 16,
+    "id": 5,
     "uploader": {
-      "id": 790,
+      "id": 172,
       "first_name": "Kasper",
       "last_name": "Skive",
       "nickname": "Kasper Skive",
@@ -1916,8 +1916,8 @@ Content-Type: application/json; charset=utf-8
       ],
       "study_level": null,
       "graduation_year": null,
-      "created_at": "2016-12-08T18:27:46.764Z",
-      "updated_at": "2016-12-08T18:27:46.764Z"
+      "created_at": "2016-12-08T20:51:32.936Z",
+      "updated_at": "2016-12-08T20:51:32.936Z"
     },
     "status": "published",
     "download_count": 2,
@@ -1928,9 +1928,9 @@ Content-Type: application/json; charset=utf-8
       "delete"
     ],
     "up_votes_count": 0,
-    "created_at": "2016-12-08T18:27:46.864Z",
-    "updated_at": "2016-12-08T18:27:46.864Z",
-    "course_id": 261,
+    "created_at": "2016-12-08T20:51:33.034Z",
+    "updated_at": "2016-12-08T20:51:33.034Z",
+    "course_id": 40,
     "filename": "Pastry Making Notes.pdf",
     "description": null,
     "category": "other",
@@ -1959,9 +1959,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/files/16/metadata" -X GET \
+curl "api.goskive.com/v2/files/5/metadata" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer a6b0c333359d44e3c151abc7f71bf4343bdbe7ddc0395deb6e6553adaa9d4d6a"
+	-H "Authorization: Bearer 08960eb55d2a1f533faf89798912dce97dd273bf5defdd37bdfe0362e01ed4fd"
 ```
 # Flashcard Feedbacks
 
@@ -1973,9 +1973,9 @@ curl "api.goskive.com/v2/files/16/metadata" -X GET \
 #### Endpoint
 
 ```
-GET /v2/flashcards/70/feedbacks
+GET /v2/flashcards/91/feedbacks
 Content-Type: application/json
-Authorization: Bearer d7debdb43d674265380c3bce3e8d03acab4f5fe3665f14b05204baad6329a3d0
+Authorization: Bearer 7cb6066368e7be58a5992cf0c7581f3ba669bdc715999c84b63d50adbbca7ebb
 ```
 
 `GET /v2/flashcards/:flashcard_id/feedbacks`
@@ -1998,22 +1998,22 @@ Content-Type: application/json; charset=utf-8
 {
   "feedbacks": [
     {
-      "id": 14,
-      "user_id": 580,
-      "feedbackable_id": 70,
+      "id": 45,
+      "user_id": 811,
+      "feedbackable_id": 91,
       "feedbackable_type": "Flashcard",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:31.748Z",
+      "updated_at": "2016-12-08T20:52:25.917Z",
       "flags": 1,
       "message": ""
     },
     {
-      "id": 13,
-      "user_id": 579,
-      "feedbackable_id": 70,
+      "id": 44,
+      "user_id": 810,
+      "feedbackable_id": 91,
       "feedbackable_type": "Flashcard",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:31.738Z",
+      "updated_at": "2016-12-08T20:52:25.906Z",
       "flags": 1,
       "message": ""
     }
@@ -2024,9 +2024,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/flashcards/70/feedbacks" -X GET \
+curl "api.goskive.com/v2/flashcards/91/feedbacks" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer d7debdb43d674265380c3bce3e8d03acab4f5fe3665f14b05204baad6329a3d0"
+	-H "Authorization: Bearer 7cb6066368e7be58a5992cf0c7581f3ba669bdc715999c84b63d50adbbca7ebb"
 ```
 # Flashcards
 
@@ -2040,7 +2040,7 @@ curl "api.goskive.com/v2/flashcards/70/feedbacks" -X GET \
 ```
 GET /v2/flashcards
 Content-Type: application/json
-Authorization: Bearer 5153a0101c0477339b9a4a46cedb5b441126bf098ab2d106ffeeda2d445e0543
+Authorization: Bearer b6d3aac1115f647625781b5d67becc7a6b38b7349f5f94f09e6dfd7579229c1c
 ```
 
 `GET /v2/flashcards`
@@ -2068,16 +2068,16 @@ Content-Type: application/json; charset=utf-8
 {
   "flashcards": [
     {
-      "id": 45,
-      "obfuscated_id": "IVleRnyZemc",
-      "author_id": 406,
-      "chapter_id": 63,
+      "id": 64,
+      "obfuscated_id": "H-V851w7HZg",
+      "author_id": 675,
+      "chapter_id": 124,
       "position": 1,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:17.907Z",
-      "created_at": "2016-12-08T18:27:17.907Z",
+      "updated_at": "2016-12-08T20:52:15.120Z",
+      "created_at": "2016-12-08T20:52:15.120Z",
       "tags": [
 
       ],
@@ -2090,16 +2090,16 @@ Content-Type: application/json; charset=utf-8
       "back_content_html": "<p>I'm the content</p>"
     },
     {
-      "id": 46,
-      "obfuscated_id": "urkHiAaH08E",
-      "author_id": 409,
-      "chapter_id": 64,
+      "id": 65,
+      "obfuscated_id": "Pu1fo5_Q1vk",
+      "author_id": 678,
+      "chapter_id": 125,
       "position": 1,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:18.073Z",
-      "created_at": "2016-12-08T18:27:18.073Z",
+      "updated_at": "2016-12-08T20:52:15.291Z",
+      "created_at": "2016-12-08T20:52:15.291Z",
       "tags": [
 
       ],
@@ -2112,16 +2112,16 @@ Content-Type: application/json; charset=utf-8
       "back_content_html": "<p>I'm the content</p>"
     },
     {
-      "id": 47,
-      "obfuscated_id": "rpshod_7JeU",
-      "author_id": 412,
-      "chapter_id": 65,
+      "id": 66,
+      "obfuscated_id": "H7dODBospvw",
+      "author_id": 681,
+      "chapter_id": 126,
       "position": 1,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:18.238Z",
-      "created_at": "2016-12-08T18:27:18.238Z",
+      "updated_at": "2016-12-08T20:52:15.458Z",
+      "created_at": "2016-12-08T20:52:15.458Z",
       "tags": [
 
       ],
@@ -2134,16 +2134,16 @@ Content-Type: application/json; charset=utf-8
       "back_content_html": "<p>I'm the content</p>"
     },
     {
-      "id": 48,
-      "obfuscated_id": "oqXJ8Hi_AE4",
-      "author_id": 415,
-      "chapter_id": 66,
+      "id": 67,
+      "obfuscated_id": "btMCNJVyvlA",
+      "author_id": 684,
+      "chapter_id": 127,
       "position": 1,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:18.402Z",
-      "created_at": "2016-12-08T18:27:18.402Z",
+      "updated_at": "2016-12-08T20:52:15.630Z",
+      "created_at": "2016-12-08T20:52:15.630Z",
       "tags": [
 
       ],
@@ -2156,16 +2156,16 @@ Content-Type: application/json; charset=utf-8
       "back_content_html": "<p>I'm the content</p>"
     },
     {
-      "id": 49,
-      "obfuscated_id": "GNsH7ObIVl0",
-      "author_id": 418,
-      "chapter_id": 67,
+      "id": 68,
+      "obfuscated_id": "yVS_7NAdP6s",
+      "author_id": 687,
+      "chapter_id": 128,
       "position": 1,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:18.567Z",
-      "created_at": "2016-12-08T18:27:18.567Z",
+      "updated_at": "2016-12-08T20:52:15.800Z",
+      "created_at": "2016-12-08T20:52:15.800Z",
       "tags": [
 
       ],
@@ -2186,7 +2186,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/flashcards" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 5153a0101c0477339b9a4a46cedb5b441126bf098ab2d106ffeeda2d445e0543"
+	-H "Authorization: Bearer b6d3aac1115f647625781b5d67becc7a6b38b7349f5f94f09e6dfd7579229c1c"
 ```
 ## Get a list of flashcards filtered by status
 
@@ -2198,7 +2198,7 @@ curl "api.goskive.com/v2/flashcards" -X GET \
 ```
 GET /v2/flashcards?status=reported
 Content-Type: application/json
-Authorization: Bearer 4c952e9b342221b1749fec54547faab90c174ca1196ec5894281676f3d90561b
+Authorization: Bearer 68175083d90d9ca3536922a569e6990b6eecd38426a61f3131b8c04c681b4e41
 ```
 
 `GET /v2/flashcards`
@@ -2230,16 +2230,16 @@ Content-Type: application/json; charset=utf-8
 {
   "flashcards": [
     {
-      "id": 54,
-      "obfuscated_id": "cKxlQSpHm5w",
-      "author_id": 434,
-      "chapter_id": 72,
+      "id": 63,
+      "obfuscated_id": "k3ebr8XrqxE",
+      "author_id": 671,
+      "chapter_id": 123,
       "position": 1,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:19.478Z",
-      "created_at": "2016-12-08T18:27:19.478Z",
+      "updated_at": "2016-12-08T20:52:14.914Z",
+      "created_at": "2016-12-08T20:52:14.914Z",
       "tags": [
 
       ],
@@ -2260,7 +2260,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/flashcards?status=reported" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 4c952e9b342221b1749fec54547faab90c174ca1196ec5894281676f3d90561b"
+	-H "Authorization: Bearer 68175083d90d9ca3536922a569e6990b6eecd38426a61f3131b8c04c681b4e41"
 ```
 ## republishes the flashcard
 
@@ -2270,9 +2270,9 @@ curl "api.goskive.com/v2/flashcards?status=reported" -X GET \
 #### Endpoint
 
 ```
-PUT /v2/flashcards/37/republish
+PUT /v2/flashcards/56/republish
 Content-Type: application/json
-Authorization: Bearer 3a8de662d7647b4490e6dcffb99424fd7359af5ce35a1c388663e3c97e4fae59
+Authorization: Bearer 44122d78e77a489d8f965cb7c6e084e55377d1d804990b66b07ee884fd348a64
 ```
 
 `PUT /v2/flashcards/:flashcard_id/republish`
@@ -2294,9 +2294,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/flashcards/37/republish" -d '' -X PUT \
+curl "api.goskive.com/v2/flashcards/56/republish" -d '' -X PUT \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 3a8de662d7647b4490e6dcffb99424fd7359af5ce35a1c388663e3c97e4fae59"
+	-H "Authorization: Bearer 44122d78e77a489d8f965cb7c6e084e55377d1d804990b66b07ee884fd348a64"
 ```
 # Question Feedbacks
 
@@ -2308,9 +2308,9 @@ curl "api.goskive.com/v2/flashcards/37/republish" -d '' -X PUT \
 #### Endpoint
 
 ```
-GET /v2/questions/62/feedbacks
+GET /v2/questions/30/feedbacks
 Content-Type: application/json
-Authorization: Bearer 261990c533a11e9b2827a4c70d1942277fb5a15ff2398f8d91f1b1d7ba104a1b
+Authorization: Bearer 22b8039105d980014dae4387473955f4131ceb6fbdd5836f6eec2670b944557b
 ```
 
 `GET /v2/questions/:question_id/feedbacks`
@@ -2333,22 +2333,22 @@ Content-Type: application/json; charset=utf-8
 {
   "feedbacks": [
     {
-      "id": 3,
-      "user_id": 464,
-      "feedbackable_id": 62,
+      "id": 30,
+      "user_id": 239,
+      "feedbackable_id": 30,
       "feedbackable_type": "Question",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:21.314Z",
+      "updated_at": "2016-12-08T20:51:37.532Z",
       "flags": 1,
       "message": ""
     },
     {
-      "id": 2,
-      "user_id": 463,
-      "feedbackable_id": 62,
+      "id": 29,
+      "user_id": 238,
+      "feedbackable_id": 30,
       "feedbackable_type": "Question",
       "workflow_state": "new",
-      "updated_at": "2016-12-08T18:27:21.302Z",
+      "updated_at": "2016-12-08T20:51:37.521Z",
       "flags": 1,
       "message": ""
     }
@@ -2359,9 +2359,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/questions/62/feedbacks" -X GET \
+curl "api.goskive.com/v2/questions/30/feedbacks" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 261990c533a11e9b2827a4c70d1942277fb5a15ff2398f8d91f1b1d7ba104a1b"
+	-H "Authorization: Bearer 22b8039105d980014dae4387473955f4131ceb6fbdd5836f6eec2670b944557b"
 ```
 # Questions
 
@@ -2375,7 +2375,7 @@ curl "api.goskive.com/v2/questions/62/feedbacks" -X GET \
 ```
 GET /v2/questions
 Content-Type: application/json
-Authorization: Bearer 5c916758078d5653930b6d7297189fcbd0353312bc904e6a6cfc676f305bd16d
+Authorization: Bearer 8b73b05a21aa52d7f200e75d402481e0898404e47d451b41792eb984204e9766
 ```
 
 `GET /v2/questions`
@@ -2403,16 +2403,16 @@ Content-Type: application/json; charset=utf-8
 {
   "questions": [
     {
-      "id": 116,
-      "obfuscated_id": "PhHGVKqnHFA",
-      "author_id": 874,
-      "chapter_id": 156,
-      "position": 109,
+      "id": 107,
+      "obfuscated_id": "_2rgp7tgq8o",
+      "author_id": 860,
+      "chapter_id": 166,
+      "position": 99,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:54.519Z",
-      "created_at": "2016-12-08T18:27:54.436Z",
+      "updated_at": "2016-12-08T20:52:30.778Z",
+      "created_at": "2016-12-08T20:52:30.698Z",
       "tags": [
 
       ],
@@ -2427,14 +2427,14 @@ Content-Type: application/json; charset=utf-8
       "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
       "answer_options": [
         {
-          "id": 234,
+          "id": 214,
           "position": 1,
           "content": "MyText",
           "content_html": "MyText",
           "correct": true
         },
         {
-          "id": 235,
+          "id": 215,
           "position": 2,
           "content": "MyText",
           "content_html": "MyText",
@@ -2443,16 +2443,16 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "id": 117,
-      "obfuscated_id": "BsA8mEPn8aM",
-      "author_id": 877,
-      "chapter_id": 157,
-      "position": 110,
+      "id": 108,
+      "obfuscated_id": "3MKez0MLRBM",
+      "author_id": 863,
+      "chapter_id": 167,
+      "position": 100,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:54.781Z",
-      "created_at": "2016-12-08T18:27:54.698Z",
+      "updated_at": "2016-12-08T20:52:31.030Z",
+      "created_at": "2016-12-08T20:52:30.948Z",
       "tags": [
 
       ],
@@ -2467,14 +2467,14 @@ Content-Type: application/json; charset=utf-8
       "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
       "answer_options": [
         {
-          "id": 236,
+          "id": 216,
           "position": 1,
           "content": "MyText",
           "content_html": "MyText",
           "correct": true
         },
         {
-          "id": 237,
+          "id": 217,
           "position": 2,
           "content": "MyText",
           "content_html": "MyText",
@@ -2483,16 +2483,16 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "id": 118,
-      "obfuscated_id": "ET3wO26jBck",
-      "author_id": 880,
-      "chapter_id": 158,
-      "position": 111,
+      "id": 105,
+      "obfuscated_id": "3yX9LpVrF_M",
+      "author_id": 854,
+      "chapter_id": 164,
+      "position": 97,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:55.043Z",
-      "created_at": "2016-12-08T18:27:54.960Z",
+      "updated_at": "2016-12-08T20:52:30.272Z",
+      "created_at": "2016-12-08T20:52:30.192Z",
       "tags": [
 
       ],
@@ -2507,14 +2507,14 @@ Content-Type: application/json; charset=utf-8
       "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
       "answer_options": [
         {
-          "id": 238,
+          "id": 210,
           "position": 1,
           "content": "MyText",
           "content_html": "MyText",
           "correct": true
         },
         {
-          "id": 239,
+          "id": 211,
           "position": 2,
           "content": "MyText",
           "content_html": "MyText",
@@ -2523,16 +2523,16 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "id": 119,
-      "obfuscated_id": "JRh8sWka24Y",
-      "author_id": 883,
-      "chapter_id": 159,
-      "position": 112,
+      "id": 106,
+      "obfuscated_id": "GEL902caNek",
+      "author_id": 857,
+      "chapter_id": 165,
+      "position": 98,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:55.307Z",
-      "created_at": "2016-12-08T18:27:55.223Z",
+      "updated_at": "2016-12-08T20:52:30.522Z",
+      "created_at": "2016-12-08T20:52:30.442Z",
       "tags": [
 
       ],
@@ -2547,14 +2547,14 @@ Content-Type: application/json; charset=utf-8
       "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
       "answer_options": [
         {
-          "id": 240,
+          "id": 212,
           "position": 1,
           "content": "MyText",
           "content_html": "MyText",
           "correct": true
         },
         {
-          "id": 241,
+          "id": 213,
           "position": 2,
           "content": "MyText",
           "content_html": "MyText",
@@ -2563,16 +2563,16 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "id": 120,
-      "obfuscated_id": "vEr9LtFjURM",
-      "author_id": 886,
-      "chapter_id": 160,
-      "position": 113,
+      "id": 109,
+      "obfuscated_id": "VSPyck5c2RY",
+      "author_id": 866,
+      "chapter_id": 168,
+      "position": 101,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:55.564Z",
-      "created_at": "2016-12-08T18:27:55.486Z",
+      "updated_at": "2016-12-08T20:52:31.273Z",
+      "created_at": "2016-12-08T20:52:31.199Z",
       "tags": [
 
       ],
@@ -2587,14 +2587,14 @@ Content-Type: application/json; charset=utf-8
       "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
       "answer_options": [
         {
-          "id": 242,
+          "id": 218,
           "position": 1,
           "content": "MyText",
           "content_html": "MyText",
           "correct": true
         },
         {
-          "id": 243,
+          "id": 219,
           "position": 2,
           "content": "MyText",
           "content_html": "MyText",
@@ -2611,7 +2611,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/questions" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 5c916758078d5653930b6d7297189fcbd0353312bc904e6a6cfc676f305bd16d"
+	-H "Authorization: Bearer 8b73b05a21aa52d7f200e75d402481e0898404e47d451b41792eb984204e9766"
 ```
 ## Get a list of questions filtered by status
 
@@ -2623,7 +2623,7 @@ curl "api.goskive.com/v2/questions" -X GET \
 ```
 GET /v2/questions?status=reported
 Content-Type: application/json
-Authorization: Bearer 19ca03bf3f6ae6d1b25820bead89a49587a8fe3ea563dd9c71bca2993ffd3a81
+Authorization: Bearer 2aa80d6fdce2b07c7cca98e6e4ca81a57b9a6b8d34f5e699d202039e28579e67
 ```
 
 `GET /v2/questions`
@@ -2655,16 +2655,16 @@ Content-Type: application/json; charset=utf-8
 {
   "questions": [
     {
-      "id": 125,
-      "obfuscated_id": "K6zw0Yc6Me8",
-      "author_id": 902,
-      "chapter_id": 165,
-      "position": 118,
+      "id": 114,
+      "obfuscated_id": "RwCVsRO9fcs",
+      "author_id": 882,
+      "chapter_id": 173,
+      "position": 106,
       "reviewed": true,
       "upvotes_count": 0,
       "downvotes_count": 0,
-      "updated_at": "2016-12-08T18:27:56.948Z",
-      "created_at": "2016-12-08T18:27:56.870Z",
+      "updated_at": "2016-12-08T20:52:32.602Z",
+      "created_at": "2016-12-08T20:52:32.528Z",
       "tags": [
 
       ],
@@ -2679,14 +2679,14 @@ Content-Type: application/json; charset=utf-8
       "explanation_html": "<p>This could never explain why it didn't pass. Maybe it did?<p>",
       "answer_options": [
         {
-          "id": 252,
+          "id": 228,
           "position": 1,
           "content": "MyText",
           "content_html": "MyText",
           "correct": true
         },
         {
-          "id": 253,
+          "id": 229,
           "position": 2,
           "content": "MyText",
           "content_html": "MyText",
@@ -2703,7 +2703,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/questions?status=reported" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 19ca03bf3f6ae6d1b25820bead89a49587a8fe3ea563dd9c71bca2993ffd3a81"
+	-H "Authorization: Bearer 2aa80d6fdce2b07c7cca98e6e4ca81a57b9a6b8d34f5e699d202039e28579e67"
 ```
 ## Republish a question
 
@@ -2713,9 +2713,9 @@ curl "api.goskive.com/v2/questions?status=reported" -X GET \
 #### Endpoint
 
 ```
-PUT /v2/questions/110/republish
+PUT /v2/questions/98/republish
 Content-Type: application/json
-Authorization: Bearer ca2999f33d09661603228b2d9dc3563eff44e6d8d8c9c2aada1ea78efc0c561e
+Authorization: Bearer 528cb21d0a5d70d1d7f3e97f571608a40bc7a40b3ee6ba41c390a61701a3f6d7
 ```
 
 `PUT /v2/questions/:question_id/republish`
@@ -2737,9 +2737,9 @@ None known.
 
 
 ```shell
-curl "api.goskive.com/v2/questions/110/republish" -d '' -X PUT \
+curl "api.goskive.com/v2/questions/98/republish" -d '' -X PUT \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer ca2999f33d09661603228b2d9dc3563eff44e6d8d8c9c2aada1ea78efc0c561e"
+	-H "Authorization: Bearer 528cb21d0a5d70d1d7f3e97f571608a40bc7a40b3ee6ba41c390a61701a3f6d7"
 ```
 # University Courses
 
@@ -2753,7 +2753,7 @@ curl "api.goskive.com/v2/questions/110/republish" -d '' -X PUT \
 ```
 POST /v2/universities/fu-berlin/courses
 Content-Type: application/json
-Authorization: Bearer 15a282bceb0821dc91ac9f0bf966dd1e45f72aa2ee1043cf49e25909f90b1f47
+Authorization: Bearer a30a3aec3053447f0fd831f110927d4ba3260bc8353ee9401e15a1fff982bdba
 ```
 
 `POST /v2/universities/:university_slug/courses`
@@ -2762,7 +2762,7 @@ Authorization: Bearer 15a282bceb0821dc91ac9f0bf966dd1e45f72aa2ee1043cf49e25909f9
 
 
 ```json
-{"course":{"title":"Choux pastry 201","topic_id":76,"published":false}}
+{"course":{"title":"Choux pastry 201","topic_id":229,"published":false}}
 ```
 
 
@@ -2802,16 +2802,16 @@ Content-Type: application/json; charset=utf-8
 ```json
 {
   "course": {
-    "creator_id": 200,
-    "id": 69,
+    "creator_id": 729,
+    "id": 219,
     "self_url": "http://api.goskive.test/api/v2/courses/fu-choux-pastry-201",
     "html_url": "https://goskive.com/course/fu-choux-pastry-201",
     "slug": "fu-choux-pastry-201",
-    "university_id": 70,
+    "university_id": 221,
     "additional_university_ids": [
 
     ],
-    "discipline_id": 77,
+    "discipline_id": 229,
     "permissions": [
       "update",
       "delete"
@@ -2833,12 +2833,12 @@ Content-Type: application/json; charset=utf-8
 
     ],
     "chapters_updated_at": null,
-    "updated_at": "2016-12-08T18:27:02.807Z",
+    "updated_at": "2016-12-08T20:52:19.039Z",
     "shortname": "fu-choux-pastry-201",
     "chapters": [
 
     ],
-    "topic_id": 76,
+    "topic_id": 229,
     "language_code": "en",
     "exam_months": [
 
@@ -2853,9 +2853,9 @@ Content-Type: application/json; charset=utf-8
 
 
 ```shell
-curl "api.goskive.com/v2/universities/fu-berlin/courses" -d '{"course":{"title":"Choux pastry 201","topic_id":76,"published":false}}' -X POST \
+curl "api.goskive.com/v2/universities/fu-berlin/courses" -d '{"course":{"title":"Choux pastry 201","topic_id":229,"published":false}}' -X POST \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 15a282bceb0821dc91ac9f0bf966dd1e45f72aa2ee1043cf49e25909f90b1f47"
+	-H "Authorization: Bearer a30a3aec3053447f0fd831f110927d4ba3260bc8353ee9401e15a1fff982bdba"
 ```
 ## Get a list including counts, permissions
 
@@ -2867,7 +2867,7 @@ curl "api.goskive.com/v2/universities/fu-berlin/courses" -d '{"course":{"title":
 ```
 GET /v2/universities/fu-berlin/courses
 Content-Type: application/json
-Authorization: Bearer 7efb3814ce4f9e3e17cc2304a8dd4217522240929b9b9e52e22c95b12d7295b3
+Authorization: Bearer c1a8b025a61dbb40c878646cb8c7a260150dec51ad69f57d8ba076cb0dee86b1
 ```
 
 `GET /v2/universities/:university_slug/courses`
@@ -2890,16 +2890,16 @@ Content-Type: application/json; charset=utf-8
 {
   "courses": [
     {
-      "creator_id": 228,
-      "id": 94,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-61",
-      "html_url": "https://goskive.com/course/fu-course-61",
-      "slug": "fu-course-61",
-      "university_id": 80,
+      "creator_id": 736,
+      "id": 226,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-163",
+      "html_url": "https://goskive.com/course/fu-course-163",
+      "slug": "fu-course-163",
+      "university_id": 226,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 102,
+      "discipline_id": 236,
       "permissions": [
         "update",
         "delete"
@@ -2921,28 +2921,28 @@ Content-Type: application/json; charset=utf-8
 
       ],
       "chapters_updated_at": null,
-      "updated_at": "2016-12-08T18:27:05.518Z",
-      "shortname": "fu-course-61",
-      "topic_id": 101,
+      "updated_at": "2016-12-08T20:52:19.993Z",
+      "shortname": "fu-course-163",
+      "topic_id": 236,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 61",
+      "title": "Course 163",
       "organizational_identifier": null,
       "instructor_name": ""
     },
     {
-      "creator_id": 228,
-      "id": 95,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-62",
-      "html_url": "https://goskive.com/course/fu-course-62",
-      "slug": "fu-course-62",
-      "university_id": 80,
+      "creator_id": 736,
+      "id": 227,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-164",
+      "html_url": "https://goskive.com/course/fu-course-164",
+      "slug": "fu-course-164",
+      "university_id": 226,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 103,
+      "discipline_id": 237,
       "permissions": [
         "update",
         "delete"
@@ -2964,28 +2964,28 @@ Content-Type: application/json; charset=utf-8
 
       ],
       "chapters_updated_at": null,
-      "updated_at": "2016-12-08T18:27:05.551Z",
-      "shortname": "fu-course-62",
-      "topic_id": 102,
+      "updated_at": "2016-12-08T20:52:20.027Z",
+      "shortname": "fu-course-164",
+      "topic_id": 237,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 62",
+      "title": "Course 164",
       "organizational_identifier": null,
       "instructor_name": ""
     },
     {
-      "creator_id": 229,
-      "id": 96,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-63",
-      "html_url": "https://goskive.com/course/fu-course-63",
-      "slug": "fu-course-63",
-      "university_id": 80,
+      "creator_id": 737,
+      "id": 228,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-165",
+      "html_url": "https://goskive.com/course/fu-course-165",
+      "slug": "fu-course-165",
+      "university_id": 226,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 104,
+      "discipline_id": 238,
       "permissions": [
         "update",
         "delete"
@@ -3007,28 +3007,28 @@ Content-Type: application/json; charset=utf-8
 
       ],
       "chapters_updated_at": null,
-      "updated_at": "2016-12-08T18:27:05.593Z",
-      "shortname": "fu-course-63",
-      "topic_id": 103,
+      "updated_at": "2016-12-08T20:52:20.069Z",
+      "shortname": "fu-course-165",
+      "topic_id": 238,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 63",
+      "title": "Course 165",
       "organizational_identifier": null,
       "instructor_name": ""
     },
     {
-      "creator_id": 229,
-      "id": 97,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-64",
-      "html_url": "https://goskive.com/course/fu-course-64",
-      "slug": "fu-course-64",
-      "university_id": 80,
+      "creator_id": 737,
+      "id": 229,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-166",
+      "html_url": "https://goskive.com/course/fu-course-166",
+      "slug": "fu-course-166",
+      "university_id": 226,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 105,
+      "discipline_id": 239,
       "permissions": [
         "update",
         "delete"
@@ -3049,15 +3049,15 @@ Content-Type: application/json; charset=utf-8
       "campaign_ids": [
 
       ],
-      "chapters_updated_at": "2016-12-08T18:27:05.437Z",
-      "updated_at": "2016-12-08T18:27:05.873Z",
-      "shortname": "fu-course-64",
-      "topic_id": 104,
+      "chapters_updated_at": "2016-12-08T20:52:19.910Z",
+      "updated_at": "2016-12-08T20:52:20.348Z",
+      "shortname": "fu-course-166",
+      "topic_id": 239,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 64",
+      "title": "Course 166",
       "organizational_identifier": null,
       "instructor_name": ""
     }
@@ -3070,7 +3070,7 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/universities/fu-berlin/courses" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer 7efb3814ce4f9e3e17cc2304a8dd4217522240929b9b9e52e22c95b12d7295b3"
+	-H "Authorization: Bearer c1a8b025a61dbb40c878646cb8c7a260150dec51ad69f57d8ba076cb0dee86b1"
 ```
 ## Get a list of university courses
 
@@ -3082,7 +3082,7 @@ curl "api.goskive.com/v2/universities/fu-berlin/courses" -X GET \
 ```
 GET /v2/universities/fu-berlin/courses
 Content-Type: application/json
-Authorization: Bearer ce184b40c4fa91a55f886af3b31efc496c7c4d59462d0913b23faa3cb5860aed
+Authorization: Bearer 9762816333beaf0f59826afbbbd7e30a744919ef2b3a16b529b1b14bb9139109
 ```
 
 `GET /v2/universities/:university_slug/courses`
@@ -3105,16 +3105,16 @@ Content-Type: application/json; charset=utf-8
 {
   "courses": [
     {
-      "creator_id": 234,
-      "id": 98,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-65",
-      "html_url": "https://goskive.com/course/fu-course-65",
-      "slug": "fu-course-65",
-      "university_id": 81,
+      "creator_id": 743,
+      "id": 230,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-167",
+      "html_url": "https://goskive.com/course/fu-course-167",
+      "slug": "fu-course-167",
+      "university_id": 228,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 106,
+      "discipline_id": 240,
       "permissions": [
         "update",
         "delete"
@@ -3136,28 +3136,28 @@ Content-Type: application/json; charset=utf-8
 
       ],
       "chapters_updated_at": null,
-      "updated_at": "2016-12-08T18:27:06.059Z",
-      "shortname": "fu-course-65",
-      "topic_id": 105,
+      "updated_at": "2016-12-08T20:52:20.630Z",
+      "shortname": "fu-course-167",
+      "topic_id": 240,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 65",
+      "title": "Course 167",
       "organizational_identifier": null,
       "instructor_name": ""
     },
     {
-      "creator_id": 234,
-      "id": 99,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-66",
-      "html_url": "https://goskive.com/course/fu-course-66",
-      "slug": "fu-course-66",
-      "university_id": 81,
+      "creator_id": 743,
+      "id": 231,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-168",
+      "html_url": "https://goskive.com/course/fu-course-168",
+      "slug": "fu-course-168",
+      "university_id": 228,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 107,
+      "discipline_id": 241,
       "permissions": [
         "update",
         "delete"
@@ -3179,28 +3179,28 @@ Content-Type: application/json; charset=utf-8
 
       ],
       "chapters_updated_at": null,
-      "updated_at": "2016-12-08T18:27:06.093Z",
-      "shortname": "fu-course-66",
-      "topic_id": 106,
+      "updated_at": "2016-12-08T20:52:20.664Z",
+      "shortname": "fu-course-168",
+      "topic_id": 241,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 66",
+      "title": "Course 168",
       "organizational_identifier": null,
       "instructor_name": ""
     },
     {
-      "creator_id": 235,
-      "id": 100,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-67",
-      "html_url": "https://goskive.com/course/fu-course-67",
-      "slug": "fu-course-67",
-      "university_id": 81,
+      "creator_id": 744,
+      "id": 232,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-169",
+      "html_url": "https://goskive.com/course/fu-course-169",
+      "slug": "fu-course-169",
+      "university_id": 228,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 108,
+      "discipline_id": 242,
       "permissions": [
         "update",
         "delete"
@@ -3222,28 +3222,28 @@ Content-Type: application/json; charset=utf-8
 
       ],
       "chapters_updated_at": null,
-      "updated_at": "2016-12-08T18:27:06.137Z",
-      "shortname": "fu-course-67",
-      "topic_id": 107,
+      "updated_at": "2016-12-08T20:52:20.706Z",
+      "shortname": "fu-course-169",
+      "topic_id": 242,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 67",
+      "title": "Course 169",
       "organizational_identifier": null,
       "instructor_name": ""
     },
     {
-      "creator_id": 235,
-      "id": 101,
-      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-68",
-      "html_url": "https://goskive.com/course/fu-course-68",
-      "slug": "fu-course-68",
-      "university_id": 81,
+      "creator_id": 744,
+      "id": 233,
+      "self_url": "http://api.goskive.test/api/v2/courses/fu-course-170",
+      "html_url": "https://goskive.com/course/fu-course-170",
+      "slug": "fu-course-170",
+      "university_id": 228,
       "additional_university_ids": [
 
       ],
-      "discipline_id": 109,
+      "discipline_id": 243,
       "permissions": [
         "update",
         "delete"
@@ -3265,14 +3265,14 @@ Content-Type: application/json; charset=utf-8
 
       ],
       "chapters_updated_at": null,
-      "updated_at": "2016-12-08T18:27:06.170Z",
-      "shortname": "fu-course-68",
-      "topic_id": 108,
+      "updated_at": "2016-12-08T20:52:20.741Z",
+      "shortname": "fu-course-170",
+      "topic_id": 243,
       "language_code": "de",
       "exam_months": [
 
       ],
-      "title": "Course 68",
+      "title": "Course 170",
       "organizational_identifier": null,
       "instructor_name": ""
     }
@@ -3285,5 +3285,5 @@ Content-Type: application/json; charset=utf-8
 ```shell
 curl "api.goskive.com/v2/universities/fu-berlin/courses" -X GET \
 	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer ce184b40c4fa91a55f886af3b31efc496c7c4d59462d0913b23faa3cb5860aed"
+	-H "Authorization: Bearer 9762816333beaf0f59826afbbbd7e30a744919ef2b3a16b529b1b14bb9139109"
 ```
